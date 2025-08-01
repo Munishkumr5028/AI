@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+joblib
+
+
+# python train_model.py
+# uvicorn main:app --reload

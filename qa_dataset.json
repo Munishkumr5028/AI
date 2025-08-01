@@ -1,0 +1,194 @@
+[
+  {
+    "question": "how to text centre into the box",
+    "answer": "To center text in a box, use CSS text-align for horizontal centering and flexbox for vertical centering. Create a div for the box and style it.\n\n**HTML:**\n```html\n<div class=\"card\">\n  <h1>Centered Text</h1>\n</div>\n```\n\n**CSS:**\n```css\n.card {\n  height: 300px;\n  width: 300px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n}\n```"
+  },
+  {
+    "question": "how to make navbar",
+    "answer": "Create a navbar using a nav element with links inside. Use HTML for structure.\n\n**HTML:**\n```html\n<nav>\n  <ul>\n    <li><a href=\"#\">Home</a></li>\n    <li><a href=\"#\">About</a></li>\n    <li><a href=\"#\">Contact</a></li>\n  </ul>\n</nav>\n```"
+  },
+  {
+    "question": "how to make navbar with design",
+    "answer": "Use HTML for navbar structure and CSS for styling like background and layout. Make it horizontal with flexbox.\n\n**HTML:**\n```html\n<nav class=\"navbar\">\n  <ul>\n    <li><a href=\"#\">Home</a></li>\n    <li><a href=\"#\">About</a></li>\n    <li><a href=\"#\">Contact</a></li>\n  </ul>\n</nav>\n```\n\n**CSS:**\n```css\n.navbar {\n  background-color: #333;\n  padding: 10px;\n}\n.navbar ul {\n  display: flex;\n  list-style: none;\n}\n.navbar li {\n  margin: 0 20px;\n}\n.navbar a {\n  color: white;\n  text-decoration: none;\n}\n```"
+  },
+  {
+    "question": "how to flex the card",
+    "answer": "Use CSS flexbox to arrange cards in a row or column. Create a card div and apply flex properties.\n\n**HTML:**\n```html\n<div class=\"card-container\">\n  <div class=\"card\">Card 1</div>\n  <div class=\"card\">Card 2</div>\n</div>\n```\n\n**CSS:**\n```css\n.card-container {\n  display: flex;\n  gap: 20px;\n}\n.card {\n  width: 200px;\n  height: 200px;\n  background: #f0f0f0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n```"
+  },
+  {
+    "question": "how to blue backgorund css propty",
+    "answer": "Set a blue background using the background-color property in CSS. Apply it to any element.\n\n**HTML:**\n```html\n<div class=\"box\">Blue Box</div>\n```\n\n**CSS:**\n```css\n.box {\n  background-color: blue;\n  color: white;\n  height: 200px;\n  width: 200px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n```"
+  },
+  {
+    "question": "how to add border to card",
+    "answer": "Use CSS border property to add a border to a card. Create a card div and style it.\n\n**HTML:**\n```html\n<div class=\"card\">Card Content</div>\n```\n\n**CSS:**\n```css\n.card {\n  width: 250px;\n  height: 250px;\n  border: 2px solid black;\n  padding: 10px;\n}\n```"
+  },
+  {
+    "question": "how to make button round",
+    "answer": "Use CSS border-radius to make a button round. Apply it to a button element.\n\n**HTML:**\n```html\n<button class=\"round-btn\">Click Me</button>\n```\n\n**CSS:**\n```css\n.round-btn {\n  border-radius: 50%;\n  width: 100px;\n  height: 100px;\n  border: none;\n  background-color: green;\n  color: white;\n}\n```"
+  },
+  {
+    "question": "how to center a div",
+    "answer": "Center a div using flexbox or margin:auto for horizontal centering. Use CSS for styling.\n\n**HTML:**\n```html\n<div class=\"container\">\n  <div class=\"box\">Centered Div</div>\n</div>\n```\n\n**CSS:**\n```css\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n.box {\n  width: 200px;\n  height: 200px;\n  background: #ddd;\n}\n```"
+  },
+  {
+    "question": "how to add shadow to card",
+    "answer": "Use CSS box-shadow to add a shadow to a card. Create a card and apply the style.\n\n**HTML:**\n```html\n<div class=\"card\">Card with Shadow</div>\n```\n\n**CSS:**\n```css\n.card {\n  width: 200px;\n  height: 200px;\n  background: white;\n  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);\n  padding: 10px;\n}\n```"
+  },
+  {
+    "question": "how to make image round",
+    "answer": "Use CSS border-radius to make an image round. Apply it to an img element.\n\n**HTML:**\n```html\n<img class=\"round-img\" src=\"image.jpg\" alt=\"Round Image\">\n```\n\n**CSS:**\n```css\n.round-img {\n  border-radius: 50%;\n  width: 150px;\n  height: 150px;\n  object-fit: cover;\n}\n```"
+  },
+  {
+    "question": "how to add background image",
+    "answer": "Use CSS background-image to set a background image for an element.\n\n**HTML:**\n```html\n<div class=\"bg-container\">Content</div>\n```\n\n**CSS:**\n```css\n.bg-container {\n  background-image: url('image.jpg');\n  background-size: cover;\n  background-position: center;\n  height: 400px;\n  color: white;\n}\n```"
+  },
+  {
+    "question": "how to make sticky navbar",
+    "answer": "Use CSS position:sticky to make a navbar stick to the top. Include HTML and CSS for styling.\n\n**HTML:**\n```html\n<nav class=\"sticky-nav\">\n  <ul>\n    <li><a href=\"#\">Home</a></li>\n    <li><a href=\"#\">About</a></li>\n  </ul>\n</nav>\n```\n\n**CSS:**\n```css\n.sticky-nav {\n  position: sticky;\n  top: 0;\n  background-color: #444;\n  padding: 10px;\n}\n.sticky-nav ul {\n  display: flex;\n  list-style: none;\n}\n.sticky-nav a {\n  color: white;\n  margin: 0 15px;\n}\n```"
+  },
+  {
+    "question": "how to hover effect on button",
+    "answer": "Use CSS :hover to change button style on hover. Apply to a button element.\n\n**HTML:**\n```html\n<button class=\"hover-btn\">Hover Me</button>\n```\n\n**CSS:**\n```css\n.hover-btn {\n  background-color: blue;\n  color: white;\n  padding: 10px 20px;\n  border: none;\n}\n.hover-btn:hover {\n  background-color: darkblue;\n  transform: scale(1.1);\n  transition: 0.3s;\n}\n```"
+  },
+  {
+    "question": "how to make grid layout",
+    "answer": "Use CSS display:grid to create a grid layout for elements. Define rows and columns.\n\n**HTML:**\n```html\n<div class=\"grid-container\">\n  <div class=\"grid-item\">Item 1</div>\n  <div class=\"grid-item\">Item 2</div>\n  <div class=\"grid-item\">Item 3</div>\n</div>\n```\n\n**CSS:**\n```css\n.grid-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 10px;\n}\n.grid-item {\n  background: #eee;\n  padding: 20px;\n  text-align: center;\n}\n```"
+  },
+  {
+    "question": "how to text bold",
+    "answer": "Use CSS font-weight to make text bold. Apply to any text element.\n\n**HTML:**\n```html\n<p class=\"bold-text\">Bold Text</p>\n```\n\n**CSS:**\n```css\n.bold-text {\n  font-weight: bold;\n  font-size: 20px;\n}\n```"
+  },
+  {
+    "question": "how to add gradient background",
+    "answer": "Use CSS linear-gradient for a gradient background. Apply to any element.\n\n**HTML:**\n```html\n<div class=\"gradient-box\">Gradient Box</div>\n```\n\n**CSS:**\n```css\n.gradient-box {\n  background: linear-gradient(to right, red, blue);\n  height: 200px;\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n```"
+  },
+  {
+    "question": "how to make responsive card",
+    "answer": "Use CSS media queries to make a card responsive. Adjust size for smaller screens.\n\n**HTML:**\n```html\n<div class=\"card\">Responsive Card</div>\n```\n\n**CSS:**\n```css\n.card {\n  width: 300px;\n  height: 200px;\n  background: #f0f0f0;\n  padding: 10px;\n}\n@media (max-width: 600px) {\n  .card {\n    width: 100%;\n    height: auto;\n  }\n}\n```"
+  },
+  {
+    "question": "how to remove link underline",
+    "answer": "Use CSS text-decoration to remove underline from links. Apply to anchor tags.\n\n**HTML:**\n```html\n<a class=\"no-underline\" href=\"#\">Link</a>\n```\n\n**CSS:**\n```css\n.no-underline {\n  text-decoration: none;\n  color: blue;\n}\n```"
+  },
+  {
+    "question": "how to add text shadow",
+    "answer": "Use CSS text-shadow to add a shadow to text. Apply to any text element.\n\n**HTML:**\n```html\n<h1 class=\"shadow-text\">Shadow Text</h1>\n```\n\n**CSS:**\n```css\n.shadow-text {\n  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);\n  font-size: 30px;\n}\n```"
+  },
+  {
+    "question": "how to make footer",
+    "answer": "Create a footer using HTML footer tag. Style it with CSS for design.\n\n**HTML:**\n```html\n<footer class=\"footer\">\n  <p>© 2025 My Website</p>\n</footer>\n```\n\n**CSS:**\n```css\n.footer {\n  background-color: #222;\n  color: white;\n  text-align: center;\n  padding: 20px;\n}\n```"
+  },
+  {
+    "question": "how to make button disable",
+    "answer": "Use HTML disabled attribute to disable a button. Style it with CSS.\n\n**HTML:**\n```html\n<button class=\"disable-btn\" disabled>Disabled</button>\n```\n\n**CSS:**\n```css\n.disable-btn {\n  background-color: #ccc;\n  color: #666;\n  padding: 10px 20px;\n  border: none;\n}\n```"
+  },
+  {
+    "question": "how to add animation to div",
+    "answer": "Use CSS @keyframes and animation property to animate a div. Create a div and apply.\n\n**HTML:**\n```html\n<div class=\"animated-div\">Animated Div</div>\n```\n\n**CSS:**\n```css\n.animated-div {\n  width: 100px;\n  height: 100px;\n  background: purple;\n  animation: slide 2s infinite;\n}\n@keyframes slide {\n  0% { transform: translateX(0); }\n  50% { transform: translateX(100px); }\n  100% { transform: translateX(0); }\n}\n```"
+  },
+  {
+    "question": "how to make table",
+    "answer": "Use HTML table tag to create a table. Style it with CSS.\n\n**HTML:**\n```html\n<table class=\"table\">\n  <tr>\n    <th>Header 1</th>\n    <th>Header 2</th>\n  </tr>\n  <tr>\n    <td>Data 1</td>\n    <td>Data 2</td>\n  </tr>\n</table>\n```\n\n**CSS:**\n```css\n.table {\n  border-collapse: collapse;\n  width: 100%;\n}\n.table th, .table td {\n  border: 1px solid black;\n  padding: 8px;\n}\n```"
+  },
+  {
+    "question": "how to change font size",
+    "answer": "Use CSS font-size property to change text size. Apply to any element.\n\n**HTML:**\n```html\n<p class=\"big-text\">Big Text</p>\n```\n\n**CSS:**\n```css\n.big-text {\n  font-size: 24px;\n}\n```"
+  },
+  {
+    "question": "how to make image responsive",
+    "answer": "Use CSS max-width and width to make an image responsive. Apply to img tag.\n\n**HTML:**\n```html\n<img class=\"responsive-img\" src=\"image.jpg\" alt=\"Responsive Image\">\n```\n\n**CSS:**\n```css\n.responsive-img {\n  max-width: 100%;\n  height: auto;\n}\n```"
+  },
+  {
+    "question": "how to add google font",
+    "answer": "Link Google Fonts in HTML and use CSS font-family to apply. Choose a font like Roboto.\n\n**HTML:**\n```html\n<head>\n  <link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\">\n</head>\n<body>\n  <p class=\"google-font\">Google Font Text</p>\n</body>\n```\n\n**CSS:**\n```css\n.google-font {\n  font-family: 'Roboto', sans-serif;\n  font-size: 18px;\n}\n```"
+  },
+  {
+    "question": "how to hide scrollbar",
+    "answer": "Use CSS to hide scrollbar while keeping scroll functionality. Apply to container.\n\n**HTML:**\n```html\n<div class=\"no-scrollbar\">Long content here...</div>\n```\n\n**CSS:**\n```css\n.no-scrollbar {\n  height: 200px;\n  overflow-y: scroll;\n}\n.no-scrollbar::-webkit-scrollbar {\n  display: none;\n}\n```"
+  },
+  {
+    "question": "how to make card hover effect",
+    "answer": "Use CSS :hover to add effects like scale or shadow to a card on hover.\n\n**HTML:**\n```html\n<div class=\"card\">Hover Card</div>\n```\n\n**CSS:**\n```css\n.card {\n  width: 200px;\n  height: 200px;\n  background: #fff;\n  transition: 0.3s;\n}\n.card:hover {\n  transform: scale(1.05);\n  box-shadow: 0 0 10px rgba(0,0,0,0.3);\n}\n```"
+  },
+  {
+    "question": "how to make sticky footer",
+    "answer": "Use CSS to make a footer stick to the bottom of the page. Use flexbox for layout.\n\n**HTML:**\n```html\n<body class=\"page\">\n  <footer class=\"footer\">Sticky Footer</footer>\n</body>\n```\n\n**CSS:**\n```css\n.page {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n.footer {\n  margin-top: auto;\n  background: #333;\n  color: white;\n  padding: 10px;\n  text-align: center;\n}\n```"
+  },
+  {
+    "question": "how to change text color",
+    "answer": "Use CSS color property to change text color. Apply to any text element.\n\n**HTML:**\n```html\n<p class=\"colored-text\">Red Text</p>\n```\n\n**CSS:**\n```css\n.colored-text {\n  color: red;\n  font-size: 20px;\n}\n```"
+  },
+  {
+    "question": "how to make form",
+    "answer": "Use HTML form tag with inputs for a form. Style with CSS.\n\n**HTML:**\n```html\n<form class=\"form\">\n  <input type=\"text\" placeholder=\"Name\">\n  <button type=\"submit\">Submit</button>\n</form>\n```\n\n**CSS:**\n```css\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  width: 300px;\n}\n.form input {\n  padding: 8px;\n}\n.form button {\n  padding: 8px;\n  background: blue;\n  color: white;\n  border: none;\n}\n```"
+  },
+  {
+    "question": "how to add video background",
+    "answer": "Use HTML video tag and CSS to set a background video. Ensure it’s full-screen.\n\n**HTML:**\n```html\n<div class=\"video-bg\">\n  <video autoplay loop muted>\n    <source src=\"video.mp4\" type=\"video/mp4\">\n  </video>\n  <div class=\"content\">Content</div>\n</div>\n```\n\n**CSS:**\n```css\n.video-bg {\n  position: relative;\n  height: 100vh;\n}\nvideo {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  z-index: -1;\n}\n.content {\n  position: relative;\n  color: white;\n  text-align: center;\n  top: 50%;\n}\n```"
+  },
+  {
+    "question": "how to make progress bar",
+    "answer": "Use HTML progress tag or a div for a custom progress bar. Style with CSS.\n\n**HTML:**\n```html\n<div class=\"progress-bar\">\n  <div class=\"progress\"></div>\n</div>\n```\n\n**CSS:**\n```css\n.progress-bar {\n  width: 300px;\n  height: 20px;\n  background: #eee;\n  border-radius: 10px;\n}\n.progress {\n  width: 60%;\n  height: 100%;\n  background: green;\n  border-radius: 10px;\n}\n```"
+  },
+  {
+    "question": "how to make list without bullets",
+    "answer": "Use CSS list-style to remove bullets from a list. Apply to ul or ol.\n\n**HTML:**\n```html\n<ul class=\"no-bullets\">\n  <li>Item 1</li>\n  <li>Item 2</li>\n</ul>\n```\n\n**CSS:**\n```css\n.no-bullets {\n  list-style: none;\n  padding: 0;\n}\n```"
+  },
+  {
+    "question": "how to make transparent div",
+    "answer": "Use CSS background with rgba to make a div transparent. Apply to any div.\n\n**HTML:**\n```html\n<div class=\"transparent-div\">Transparent Div</div>\n```\n\n**CSS:**\n```css\n.transparent-div {\n  width: 200px;\n  height: 200px;\n  background: rgba(0,0,0,0.5);\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n```"
+  },
+  {
+    "question": "how to add favicon",
+    "answer": "Use HTML link tag in head to add a favicon. Link to an icon file.\n\n**HTML:**\n```html\n<head>\n  <link rel=\"icon\" href=\"favicon.ico\">\n</head>\n<body>\n  <p>Page with Favicon</p>\n</body>\n```\n\n**CSS:**\n```css\n/* No CSS needed */\n```"
+  },
+  {
+    "question": "how to make input border",
+    "answer": "Use CSS border property to style an input’s border. Apply to input tag.\n\n**HTML:**\n```html\n<input class=\"styled-input\" type=\"text\" placeholder=\"Enter text\">\n```\n\n**CSS:**\n```css\n.styled-input {\n  border: 2px solid blue;\n  padding: 8px;\n  width: 200px;\n}\n```"
+  },
+  {
+    "question": "how to make scroll smooth",
+    "answer": "Use CSS scroll-behavior to enable smooth scrolling. Apply to html or body.\n\n**HTML:**\n```html\n<body>\n  <a href=\"#section\">Go to Section</a>\n  <div id=\"section\" style=\"height:1000px;\">Section</div>\n</body>\n```\n\n**CSS:**\n```css\nhtml {\n  scroll-behavior: smooth;\n}\n```"
+  },
+  {
+    "question": "how to make image zoom on hover",
+    "answer": "Use CSS transform:scale on hover to zoom an image. Apply to img tag.\n\n**HTML:**\n```html\n<img class=\"zoom-img\" src=\"image.jpg\" alt=\"Zoom Image\">\n```\n\n**CSS:**\n```css\n.zoom-img {\n  width: 200px;\n  transition: transform 0.3s;\n}\n.zoom-img:hover {\n  transform: scale(1.2);\n}\n```"
+  },
+  {
+    "question": "how to make dropdown menu",
+    "answer": "Use HTML for menu structure and CSS for dropdown on hover. Style with CSS.\n\n**HTML:**\n```html\n<nav class=\"dropdown\">\n  <div class=\"menu-item\">Menu\n    <div class=\"dropdown-content\">\n      <a href=\"#\">Link 1</a>\n      <a href=\"#\">Link 2</a>\n    </div>\n  </div>\n</nav>\n```\n\n**CSS:**\n```css\n.dropdown {\n  position: relative;\n}\n.menu-item {\n  padding: 10px;\n  background: #333;\n  color: white;\n  cursor: pointer;\n}\n.dropdown-content {\n  display: none;\n  position: absolute;\n  background: #444;\n}\n.dropdown-content a {\n  display: block;\n  padding: 10px;\n  color: white;\n  text-decoration: none;\n}\n.menu-item:hover .dropdown-content {\n  display: block;\n}\n```"
+  },
+  {
+    "question": "how to make button outline",
+    "answer": "Use CSS border and background:none to create an outlined button. Apply to button.\n\n**HTML:**\n```html\n<button class=\"outline-btn\">Outline Button</button>\n```\n\n**CSS:**\n```css\n.outline-btn {\n  border: 2px solid black;\n  background: none;\n  padding: 10px 20px;\n  color: black;\n}\n```"
+  },
+  {
+    "question": "how to make text underline on hover",
+    "answer": "Use CSS :hover and text-decoration to underline text on hover. Apply to links.\n\n**HTML:**\n```html\n<a class=\"hover-underline\" href=\"#\">Hover Link</a>\n```\n\n**CSS:**\n```css\n.hover-underline {\n  text-decoration: none;\n}\n.hover-underline:hover {\n  text-decoration: underline;\n}\n```"
+  },
+  {
+    "question": "how to make card flip animation",
+    "answer": "Use CSS transform and transition for a card flip effect. Use two sides in a container.\n\n**HTML:**\n```html\n<div class=\"flip-card\">\n  <div class=\"flip-inner\">\n    <div class=\"flip-front\">Front</div>\n    <div class=\"flip-back\">Back</div>\n  </div>\n</div>\n```\n\n**CSS:**\n```css\n.flip-card {\n  width: 200px;\n  height: 300px;\n  perspective: 1000px;\n}\n.flip-inner {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  transition: transform 0.6s;\n  transform-style: preserve-3d;\n}\n.flip-card:hover .flip-inner {\n  transform: rotateY(180deg);\n}\n.flip-front, .flip-back {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  backface-visibility: hidden;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.flip-front {\n  background: #ddd;\n}\n.flip-back {\n  background: #555;\n  color: white;\n  transform: rotateY(180deg);\n}\n```"
+  },
+  {
+    "question": "how to make sidebar",
+    "answer": "Use HTML for sidebar structure and CSS for fixed positioning. Style as needed.\n\n**HTML:**\n```html\n<div class=\"sidebar\">\n  <ul>\n    <li><a href=\"#\">Link 1</a></li>\n    <li><a href=\"#\">Link 2</a></li>\n  </ul>\n</div>\n```\n\n**CSS:**\n```css\n.sidebar {\n  position: fixed;\n  left: 0;\n  top: 0;\n  width: 200px;\n  height: 100vh;\n  background: #333;\n  color: white;\n}\n.sidebar ul {\n  list-style: none;\n  padding: 20px;\n}\n.sidebar a {\n  color: white;\n  text-decoration: none;\n}\n```"
+  },
+  {
+    "question": "how to make toggle button",
+    "answer": "Use HTML checkbox and CSS to style a toggle button. Use :checked for state.\n\n**HTML:**\n```html\n<label class=\"toggle\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n```\n\n**CSS:**\n```css\n.toggle {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n.toggle input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: #ccc;\n  transition: 0.4s;\n  border-radius: 34px;\n}\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background: white;\n  transition: 0.4s;\n  border-radius: 50%;\n}\ninput:checked + .slider {\n  background: green;\n}\ninput:checked + .slider:before {\n  transform: translateX(26px);\n}\n```"
+  },
+  {
+    "question": "how to make overlay on image",
+    "answer": "Use CSS position:absolute to create an overlay on an image. Style with rgba.\n\n**HTML:**\n```html\n<div class=\"image-overlay\">\n  <img src=\"image.jpg\" alt=\"Image\">\n  <div class=\"overlay\">Overlay Text</div>\n</div>\n```\n\n**CSS:**\n```css\n.image-overlay {\n  position: relative;\n  width: 300px;\n}\n.image-overlay img {\n  width: 100%;\n  height: auto;\n}\n.overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(0,0,0,0.5);\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n```"
+  },
+  {
+    "question": "how to make accordion",
+    "answer": "Use HTML details or divs with JS for an accordion. Style with CSS.\n\n**HTML:**\n```html\n<div class=\"accordion\">\n  <div class=\"accordion-item\">\n    <button class=\"accordion-title\">Section 1</button>\n    <div class=\"accordion-content\">Content 1</div>\n  </div>\n</div>\n```\n\n**CSS:**\n```css\n.accordion-title {\n  background: #444;\n  color: white;\n  padding: 10px;\n  width: 100%;\n  text-align: left;\n  border: none;\n}\n.accordion-content {\n  display: none;\n  padding: 10px;\n  background: #f0f0f0;\n}\n```\n\n**JS:**\n```javascript\ndocument.querySelector('.accordion-title').addEventListener('click', function() {\n  const content = this.nextElementSibling;\n  content.style.display = content.style.display === 'block' ? 'none' : 'block';\n});\n```"
+  },
+  {
+    "question": "how to make full screen div",
+    "answer": "Use CSS width and height to make a div full screen. Apply to div.\n\n**HTML:**\n```html\n<div class=\"full-screen\">Full Screen Div</div>\n```\n\n**CSS:**\n```css\n.full-screen {\n  width: 100vw;\n  height: 100vh;\n  background: #000;\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n```"
+  }
+]
